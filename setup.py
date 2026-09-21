@@ -1,6 +1,10 @@
 #!/usr/bin/env python
 # -*- encoding: utf-8 -*-
 
+# SPDX-FileCopyrightText: 2026 Henrik Sandklef
+#
+# SPDX-License-Identifier: GPL-3.0-or-later
+
 from __future__ import absolute_import
 from __future__ import print_function
 

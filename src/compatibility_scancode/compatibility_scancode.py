@@ -12,21 +12,12 @@ import saneyaml
 from commoncode.cliutils import PluggableCommandLineOption
 from commoncode.cliutils import POST_SCAN_GROUP
 from commoncode.filetype import is_file
-from commoncode.filetype import is_readable
-from licensedcode.detection import get_license_keys_from_detections
 from plugincode.post_scan import PostScanPlugin
 from plugincode.post_scan import post_scan_impl
 
-from licomp_toolkit.return_codes import LicompToolkitReturnCodes
-from licomp_toolkit.toolkit import LicompToolkit
 from licomp_toolkit.toolkit import ExpressionExpressionChecker
-from licomp.interface import UseCase
-from licomp.interface import Provisioning
-from licomp.return_codes import ReturnCodes
-from licomp.return_codes import compatibility_status_to_returncode
 
 from flame.license_db import FossLicenses
-from flame.exception import FlameException
 
 TRACE = os.environ.get('SCANCODE_DEBUG_LICENSE_COMPATIBILITY', False)
 

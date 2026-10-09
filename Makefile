@@ -4,5 +4,6 @@
 
 clean:
 	-rm -fr src/scancode_compatibility.egg-info
+	-rm -fr build
 	-find . -name "*~" | xargs rm
 	-rm src-scan.json

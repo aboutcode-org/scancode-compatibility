@@ -1,12 +1,12 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: scancode-compatibility
-Upstream-Contact: Henrik Sandklef <hesa@software-compliance-org>
-Source: https://codeberg.org/software-compliance-org/scancode-compatibility
+Upstream-Contact: info@aboutcode.org
+Source: https://github.com/aboutcode-org/scancode-compatibility
 
 Files: README.md 
-Copyright: Henrik Sandklef <hesa@software-compliance-org>
+Copyright: AboutCode
 License: GPL-3.0-or-later
 
 Files: src/compatibility_scancode/__init__.py
-Copyright: Henrik Sandklef <hesa@software-compliance-org>
+Copyright: AboutCode
 License: GPL-3.0-or-later

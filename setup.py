@@ -17,18 +17,18 @@ from setuptools import find_packages
 from setuptools import setup
 
 
-desc = '''A ScanCode post-scan plugin to to illustrate the creation of a simple post-scan plugin.'''
+desc = '''A ScanCode post-scan plugin to check compatibility between the identified licenses and a user provided outbound license.'''
 
 setup(
     name='scancode-compatibility',
-    version='1.0.0',
-    license='',
+    version='0.1.0',
+    license='GPL-3.0-or-later',
     description=desc,
     long_description=desc,
-    author='Henrik Sandklef',
-    author_email='hesa@software-compliance.org',
+    author='AboutCode',
+    author_email='info@aboutcode.org',
     license_files=('LICENSES/GPL-3.0-or-later.txt',),
-    url='https://codeberg.org/software-compliance-org/scancode-compatibility',
+    url='https://github.com/aboutcode-org/scancode-compatibility',
     packages=find_packages('src'),
     package_dir={'': 'src'},
     py_modules=[splitext(basename(path))[0] for path in glob('src/*.py')],

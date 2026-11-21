@@ -65,13 +65,7 @@ Compatbility statuses:
 For now, installation needs to be done via the git repo:
 
 ```shell
-git clone https://codeberg.org/hesa/scancode-compatibility.git
-cd https://codeberg.org/hesa/scancode-compatibility.git
+git clone git@github.com:aboutcode-org/scancode-compatibility.git
+cd scancode-compatibility
 pip install .
 ```
-
-# Tools used
-
-* scancode toolkit
-* licomp-toolkit
-* flame
